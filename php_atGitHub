@@ -1,7 +1,7 @@
 ## What simple PHP projects should I tackle in order to learn PHP?
-   [Christian Dechery]. I would suggest that you tap into a simple project of database manipulation using multiple-dimension arrays. 
-                        But you should do it not using examples found on Google or going for the simplest way to achieve it. 
-                        No, you should do it using some PHP foundations, as follows:
+   1. [Christian Dechery]. I would suggest that you tap into a simple project of database manipulation using multiple-dimension arrays. 
+                           But you should do it not using examples found on Google or going for the simplest way to achieve it. 
+                           No, you should do it using some PHP foundations, as follows:
 
     - database handling (connect to a database / execute and evaluate queries / build and execute updates)
     - includes / requires (create a separate .php file with your own database access functions - learn the difference between include and require and use that in you project)
@@ -11,3 +11,17 @@
     * Do not use ANY Javascript on form validation. Validate everything in your PHP code and learn how to use PHP's error handling facilities.
     * If you can come up with a very simple form that inserts and updates data in, say, two or three different and related tables, 
       and successfully build an PHP application for it, you are on your way to create anything you want with that language.
+      
+      
+  2. [Anonymous]
+     a. Project 1: Find and replace application
+        U will learn how to take data from text forms and then process them in php tags using string functions like str_replace n strpos etc.
+
+     b. Project 2 : visitor counter using database
+        U will learn how to connect with mysql database and then executing query
+
+     c. Project 3: search engine
+        U will learn concepts in queries like joins, like, wildcard etc.
+
+     d. Project 4: login page
+        It will include concepts like sql injection.
