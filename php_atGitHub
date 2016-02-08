@@ -1,0 +1,13 @@
+## What simple PHP projects should I tackle in order to learn PHP?
+   [Christian Dechery]. I would suggest that you tap into a simple project of database manipulation using multiple-dimension arrays. 
+                        But you should do it not using examples found on Google or going for the simplest way to achieve it. 
+                        No, you should do it using some PHP foundations, as follows:
+
+    - database handling (connect to a database / execute and evaluate queries / build and execute updates)
+    - includes / requires (create a separate .php file with your own database access functions - learn the difference between include and require and use that in you project)
+    - array manipulation (make use of associative, multi-dimensional arrays to store and manipulate the query results and the updates you make on the database)
+    - HTML dynamic form building and processing of the request variables, namely $_GET and $_POST. Learn how to use them and how NOT to use them
+
+    * Do not use ANY Javascript on form validation. Validate everything in your PHP code and learn how to use PHP's error handling facilities.
+    * If you can come up with a very simple form that inserts and updates data in, say, two or three different and related tables, 
+      and successfully build an PHP application for it, you are on your way to create anything you want with that language.
