@@ -1,10 +1,4 @@
-## Git pull is not possible, because of unmerged files. ;
-  > git reset --hard
-  > git pull --rebase
-  > git rebase --skip
-  > git pull
-  
-  
+
 ## How to create a Repository and clone it to your local system:
         * create the repository in your GitHub personal page
         * copy the URL address for cloning
@@ -31,3 +25,12 @@
       * git doesn't store empty folders. Just make sure there's a file in the folder like doc/foo.txt 
         and run git add doc or git add doc/foo.txt and the folder will be added to your local repo 
         once you've committed (and appear on github once you've pushed it)
+        
+## How to pull?
+   > git pull origin master
+        
+## Git pull is not possible, because of unmerged files. ;
+  > git reset --hard
+  > git pull --rebase
+  > git rebase --skip
+  > git pull
