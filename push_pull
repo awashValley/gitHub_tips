@@ -30,7 +30,6 @@
    > git pull origin master
         
 ## Git pull is not possible, because of unmerged files. ;
-  > git reset --hard
+  > git status   /* to see which file is added on the repo */
+  > git stash
   > git pull --rebase
-  > git rebase --skip
-  > git pull
